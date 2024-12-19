@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Datacollect') {
+    stage('my first pipeline') {
       steps {
-             echo 'hello.py'
+             echo 'hello pipeline.py'
       }
     }
     stage('DataValidation') {
